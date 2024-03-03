@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+div{
+  display: inline-block;
+  font-style: normal;
+  font-size: 16px;
+}
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.text-overlay h2 {
+  margin: 0;
+  font-size: 25px; 
+  padding-top: 30px;
+  font-weight: normal; 
+  line-height: 1.5; 
+}
+
+.text-overlay p {
+  padding: 0px 20px;
+  font-size: 14px;
+  color:yellow
+}

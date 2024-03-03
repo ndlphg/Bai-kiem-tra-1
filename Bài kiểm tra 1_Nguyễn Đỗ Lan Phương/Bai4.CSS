@@ -1,0 +1,49 @@
+body {
+    background-color: #f2f2f2;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-size: 13px;
+  }
+  
+  form {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #email {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 16px 25px;
+    font-size: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #2f00ff;
+    color: #fff;
+    cursor: pointer; /*thể hiện nó là một con trỏ*/
+  }
+  
+  button:hover {
+    background-color: #6964ff;
+  }

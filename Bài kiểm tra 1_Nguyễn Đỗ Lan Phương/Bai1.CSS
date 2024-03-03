@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    font-family: "Arial", sans-serif;
+}
+#logo {
+ display:inline;
+}
+h1{
+    font-weight: bold
+}
+span{
+    color: blue;
+}
+h2{
+    font-weight: 300;
+    font-style: bold;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+div{
+    display: inline-block;
+    font-style: normal;
+    font-size: 16px;
+    background-color: black;
+    margin-right: 20px;
+    color: white; 
+    border-radius: 4px;
+    padding: 5px 5px 3px 3px;
+}
+p{
+    display: inline-block;
+    margin-left: 10px;
+}
+img{
+    display: inline-block;
+    margin-right: 10px;
+}

@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;  
+  height: auto; 
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.text-overlay h1 {
+  margin: 0;
+  font-size: 20px; 
+  font-weight: normal; 
+  line-height: 1.5; 
+}
+
+.text-overlay p {
+  margin: 9px 0;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.register-button {
+  padding: 14px 12px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #453535;
+}
